@@ -11,7 +11,7 @@ and [easel](https://github.com/jones-gareth/easel/tree/mingw-build) forks of the
 
 ## Build Recipe
 
-The following recipie describes how to build native executables for windows using 
+The following recipe describes how to build native executables for windows using 
 [MSYS2](https://www.msys2.org/) and [MInGW](https://www.mingw-w64.org/). At the time
  of writing the compiler was `gcc version 11.2.0 (Rev1, Built by MSYS2 project)`
 
@@ -71,7 +71,7 @@ HMMER configuration:
 
 ```console
 mingw32-make.exe clean
-mingw32-make.exe dev          # build everything- there should be no warnings
+mingw32-make.exe dev           # build everything- there should be no warnings
 rm -rf src/impl                
 cp -r src/impl_sse src/impl    # No symlinks on windows, so this needs to be copied
 mingw32-make.exe check         # Run the tests. 2 will fail
