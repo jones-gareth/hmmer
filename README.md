@@ -7,7 +7,8 @@ With the exception of `hmmpgmd` and `hmmpgmd_shard` the Windows native executabl
 If prefer not to do your own build the resulting executables are in the [binaries](/binaries) directory.
 
 The source code in this project was created from [hmmer](https://github.com/jones-gareth/hmmer/tree/mingw-build)
-and [easel](https://github.com/jones-gareth/easel/tree/mingw-build) forks of the develop branches of HMMER.
+and [easel](https://github.com/jones-gareth/easel/tree/mingw-build) forks of the develop branches 
+of [HMMER](https://github.com/EddyRivasLab/hmmer/tree/develop).
 
 ## Build Recipe
 
