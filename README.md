@@ -28,6 +28,7 @@ In the MSYS2 shell install these packages (picking all groups)
 pacman -S base-devel gcc vim cmake 
 pacman -S mingw-w64-x86_64-toolchain
 pacman -S diffutils
+pacman -S git
 ```
 
 There is no mman library for windows, but a wrapper is available for MinGW.  
