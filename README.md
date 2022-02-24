@@ -74,7 +74,7 @@ HMMER configuration:
 ```console
 mingw32-make.exe clean
 mingw32-make.exe dev           # build everything- there should be no warnings
-rm -rf src/impl                
+rm -r src/impl                
 cp -r src/impl_sse src/impl    # No symlinks on windows, so this needs to be copied
 mingw32-make.exe check         # Run the tests. 2 will fail
 mingw32-make.exe install       # install if you're happy with test results
